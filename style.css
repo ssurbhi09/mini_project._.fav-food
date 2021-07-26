@@ -1,0 +1,25 @@
+ #topbar{
+                background-color: lightseagreen;
+                padding: 24px;
+            }
+            #list-heading{
+                font-size: 20px;
+                padding-left: 24px;
+            }
+            .menu-section{
+                font-size: 24px;
+                padding: 8px;
+                font-weight: 600;
+            }
+            .menu-list{
+                font-style: initial;
+                
+                font-size: 20px;
+            }
+            .food-image{
+                width: 400px;
+                height: 400px;
+            }
+            .food-wrapper{
+                text-align: center;
+            }
