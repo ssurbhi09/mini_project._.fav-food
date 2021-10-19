@@ -1,25 +1,72 @@
- #topbar{
-                background-color: lightseagreen;
-                padding: 24px;
-            }
+
+             #topbar{
+                     background-color: #1e3d59;
+                     padding: 24px;
+                     text-align: center;
+              }
+              #title_bar{
+                background-color:#ffc13b;
+                margin-top: -44px;
+
+              }
             #list-heading{
-                font-size: 20px;
+                font-size: 44px;
+                font-weight: 200;
                 padding-left: 24px;
+                text-align: center;
+                color: #ff6e40;
+                font-family:monospace;
+                padding-top: 20px;
+                margin-bottom: 20px;
             }
             .menu-section{
                 font-size: 24px;
                 padding: 8px;
                 font-weight: 600;
+                font-family: monospace;
+                color: #f5f0e1;
+                margin-left: 54px;
+            }
+            ul{
+                list-style: none;
+                display: inline-flex;
+                margin-top: 0;
+            }
+            ul a{
+                text-decoration: none;
+                color: #ff6e40;
+                font-family:monospace;
             }
             .menu-list{
                 font-style: initial;
-                
-                font-size: 20px;
+                margin-left: 95px;
+                margin-right: 95px;
+                font-size: 23px;
             }
             .food-image{
-                width: 400px;
-                height: 400px;
+                width: 600px;
+                height: 430px;
             }
             .food-wrapper{
                 text-align: center;
+                padding-top: 26px;
+                background-image: url("https://img.freepik.com/free-vector/hand-drawn-sketch-healthy-food-background_52683-18952.jpg?size=626&ext=jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
             }
+            p{
+                margin-bottom: 0px;
+                margin-top: 5px;
+                font-family: fantasy;
+                color:#f5f0e1;
+                font-size: 50px;
+                background-color: #1e3d59;
+
+            }
+/* ###########Hover########### */
+a:hover{
+    color:#f5f0e1;
+}
+span:hover{
+    color:#ff6e40 ;
+}
